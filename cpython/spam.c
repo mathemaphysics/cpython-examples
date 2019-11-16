@@ -1,4 +1,4 @@
-#include <python3.6m/Python.h>
+#include <Python.h>
 
 static PyObject *SpamError;
 
