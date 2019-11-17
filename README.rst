@@ -2,6 +2,9 @@
 Linking Cython to C Libraries
 =============================
 
+.. image:: https://travis-ci.org/mathemaphysics/cpython-examples.svg?branch=master
+    :target: https://travis-ci.org/mathemaphysics/cpython-examples
+
 Here we'll go through an example using Cython in Python
 while also linking to an external C or C++ library. This
 requires some special considerations, but shouldn't be too
