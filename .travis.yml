@@ -1,0 +1,16 @@
+language: c
+compiler: gcc
+dist: bionic
+
+before_install:
+    - sudo apt-get update -y
+
+install:
+    - sudo apt-get install -y ninja-build meson
+
+script:
+    - cd cpython
+    - meson setup . build
+    - cd build
+    - ninja
+
