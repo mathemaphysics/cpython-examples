@@ -8,7 +8,7 @@ requires some special considerations, but shouldn't be too
 involved. It requires use of `pxd`, `pyx`, and `py` file
 formats.
 
-The guide I'll use here is at guide_.
+The guide I'll use is at guide_.
 
 .. _guide: https://cython.readthedocs.io/en/latest/src/tutorial/clibraries.html#id21d
 
